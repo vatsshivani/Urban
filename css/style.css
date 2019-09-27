@@ -2,3 +2,16 @@
 {
 	width: 100%;
 }
+h1
+{
+	padding: 10px 20px;
+	color: red;
+	font-weight: bold;
+	font-size: 40px;
+	display: inline-block;
+	border: 5px double red;
+}
+.hdng
+{
+	text-align: center;
+}
