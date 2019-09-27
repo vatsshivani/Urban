@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/menu.css" />
+
 
 <ul class="menu">
 <li><a href="#">Home</a></li>
