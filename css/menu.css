@@ -8,12 +8,13 @@ body
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	overflow: auto;
+	height: 50px;
 	background-color: yellow;
 }
 .menu li
 {
 	float: left;
+	position: relative;
 }
 .menu li a
 {
@@ -27,4 +28,21 @@ body
 {
 	background-color: black;
 	color:white;
+}
+
+.submenu
+{
+	position: absolute;
+	background-color: lightyellow;
+	width:0;
+	opacity: 0;
+	visibility: hidden;
+	transition:0.5s;
+	white-space: nowrap;
+}
+.menu>li:hover .submenu
+{
+	width:650px;
+	opacity: 1;
+	visibility: visible;
 }
